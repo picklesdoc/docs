@@ -1,0 +1,19 @@
+site_name: Pickles
+pages:
+- [index.md, Home]
+- [GettingStarted.md, Getting Started]
+- [ConsoleApplication.md, Console Application]
+- [PowerShellcommandlet.md, PowerShell Commandlet]
+- [MSBuildTask.md, MSBuild Task]
+- [HowToGeneratePicklesDocOnTeamCity.md, How To Generate Pickles Doc On Team City]
+- [IntegratingTestResultsFromSpecRun.md, Integrating Test Results From SpecRun]
+- [Arguments.md, Arguments]
+- [ArgumentsDocumentationFormat.md, Arguments Documentation Format]
+- [ArgumentsFeatureDirectory.md, Arguments Feature Directory]
+- [ArgumentsOutputDirectory.md, Arguments Output Directory]
+- [ArgumentsSystemUnderTestName.md, Arguments System Under Test Name]
+- [ArgumentsSystemUnderTestVersion.md, Arguments System Under Test Version]
+- [ArgumentsTestResultsFile.md, Arguments Test Results File]
+- [ArgumentsTestResultsFormat.md, Arguments Test Results Format]
+- [HowToContribute.md, How To Contribute]
+theme: readthedocs
