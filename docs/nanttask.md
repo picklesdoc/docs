@@ -1,3 +1,0 @@
-# NAnt Task
-
-Coming soon!
