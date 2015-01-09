@@ -41,7 +41,7 @@ Build target properties can also be passed to MSBuild via command-line argument.
 
 ## Manually Referencing the Task
 
-[Download Pickles](/GettingStarted.md) and place the Pickles.MSBuild.Tasks.dll assembly somewhere on your disk (if you are using continuous integration then make sure it is somewhere in your working folder).  You then get access to the Pickles task by including this at the top of your .proj file:
+[Download Pickles](GettingStarted.md) and place the Pickles.MSBuild.Tasks.dll assembly somewhere on your disk (if you are using continuous integration then make sure it is somewhere in your working folder).  You then get access to the Pickles task by including this at the top of your .proj file:
 
 	<UsingTask AssemblyFile=".\path\to\Pickles.MSBuild.Tasks.dll" TaskName="Pickles" />
 
