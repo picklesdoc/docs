@@ -59,19 +59,33 @@ See the [How to Contribute](HowToContribute.md) page.
 Acknowledgements
 ----------------
 
-If you look at the source code you'll see I'm building on the shoulders of giants!  Here is a (not-exhaustive) list of projects incorporated into Pickles
+If you look at the source code you'll see I'm building on the shoulders of giants!  Here is a list of projects incorporated into Pickles:
 
-- [log4net](http://logging.apache.org/log4net/)
-- [SpecFlow](http://specflow.org/)
+- [Autofac](http://autofac.org/)
+- [ClosedXML](https://closedxml.codeplex.com/)
+- [Common Service Locator](https://commonservicelocator.codeplex.com/)
+- [Chocolatey](https://chocolatey.org/)
+- [FAKE](http://fsharp.github.io/FAKE/)
+- [Fody](https://github.com/Fody/Fody) and [Costura](https://github.com/Fody/Costura)
 - [Gherkin](https://github.com/cucumber/gherkin)
-- [NUnit](http://www.nunit.org)
-- [Moq](http://code.google.com/p/moq/)
-- [Ninject](http://ninject.org/)
-- [MarkdownSharp](http://code.google.com/p/markdownsharp/)
-- [NDesk.Options](http://www.ndesk.org/Options)
-- [NGenerics](http://code.google.com/p/ngenerics/)
 - [IKVM](http://www.ikvm.net/)
+- [Json.NET](http://james.newtonking.com/json)
+- [MahApps.Metro](http://mahapps.com/)
+- [MarkdownDeep](http://www.toptensoftware.com/markdowndeep/)
+- [Moq](https://github.com/Moq/moq4)
+- [MvvmLight](http://www.mvvmlight.net/)
+- [NDesk.Options](http://www.ndesk.org/Options)
+- [NFluent](http://www.n-fluent.net/)
+- [NGenerics](https://github.com/ngenerics/ngenerics)
+- [NLog](http://nlog-project.org/)
+- [NlogViewer](https://github.com/erizet/NlogViewer)
 - [NuGet](http://www.nuget.org)
+- [NUnit](http://www.nunit.org)
+- [Ookii.Dialogs](http://www.ookii.org/Software/Dialogs/)
+- [OpenXml](https://www.nuget.org/packages/DocumentFormat.OpenXml/)
+- [SpecFlow](http://specflow.org/)
+- [System.IO.Abstractions](https://github.com/tathamoddie/System.IO.Abstractions)
+
 
 A big thanks to all projects as they were extremely helpful in building this project quickly and easily.
 
