@@ -29,9 +29,3 @@ Any path to a valid results file in XML format.
      <Target Name="document">
          <Pickles ResultsFile="C:\MyProject\Reports\results.xml" />
      </Target>
-
-### NAnt
-
-     <target name="document">
-         <pickles resultsFile="C:\MyProject\Reports\results.xml" />
-     </target>

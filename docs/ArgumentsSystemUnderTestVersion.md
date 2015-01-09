@@ -32,8 +32,3 @@ Any valid string.
         <Pickles SystemUnderTestVersion="2.0.1beta" />
     </Target>
 
-### NAnt
-
-    <target Name="document">
-        <pickles systemUnderTestVersion="2.0.1beta" />
-    </target>

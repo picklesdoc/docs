@@ -30,8 +30,3 @@ Any valid directory path, either absolute or relative.
         <Pickles OutputDirectory="C:\GeneratedDocs" />
     </Target>
 
-### NAnt
-
-    <target Name="document">
-        <pickles output="C:\GeneratedDocs" />
-    </target>

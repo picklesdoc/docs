@@ -30,9 +30,3 @@ Any valid directory path, either absolute or relative.
     <Target Name="document">
         <Pickles FeatureDirectory="C:\MyProject\Features" />
     </Target>
-
-### NAnt
-
-    <target Name="document">
-        <pickles FeatureDirectory="C:\MyProject\Features" />
-    </target>

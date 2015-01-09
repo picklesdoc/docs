@@ -30,8 +30,3 @@ Any valid string.
         <Pickles SystemUnderTestName="MyProject" />
     </Target>
 
-### NAnt
-
-    <target Name="document">
-        <pickles systemUnderTestName="MyProject" />
-    </target>
