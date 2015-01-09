@@ -1,0 +1,5 @@
+site_name: Test Read The Docs
+pages:
+- [index.md, Home]
+- [onepage.md, One Cool Page]
+theme: readthedocs
