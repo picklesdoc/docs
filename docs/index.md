@@ -17,7 +17,7 @@ See the [Getting Started](GettingStarted.md) page for more details.
 There are currently several ways of running Pickles:
 
 - [Console Application](ConsoleApplication.md)
-- [NAnt task](NAntTask.md)
+- GUI
 - [MSBuild Task](MSBuildTask.md)
 - [PowerShell commandlet](PowerShellcommandlet.md)
 
