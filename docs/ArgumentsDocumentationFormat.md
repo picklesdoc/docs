@@ -6,12 +6,9 @@ Allows the user to select what format the generated output will be written in.  
 
 - HTML
 - Dhtml
-- DITA
 - Word (OpenXML)
 - JSON
 - Excel
-
-For more information on the DITA output format, visit [Dita at sourceforge](http://dita-ot.sourceforge.net/).
 
 **Note**: The value passed to this argument is case-insensitive.  i.e. HTML = html= HtMl
 
@@ -21,7 +18,7 @@ html
 
 ## Possible Values
 
-html, dhtml, excel, json, word, dita
+html, dhtml, excel, json, word
 
 ## Usage
 
@@ -41,8 +38,3 @@ html, dhtml, excel, json, word, dita
         <pickles DocumentationFormat="Word" />
     </target>
 
-### NAnt
-
-    <Target Name="document">
-        <Pickles documentationFormat="Word" />
-    </Target>
