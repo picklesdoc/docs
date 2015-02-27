@@ -26,7 +26,7 @@ In the examples above we made some assumptions about your environment.
 
 * We expect that all your .feature files is found in the features-folder and subfolders.
 
-* To generated the result.xml file you can use [NUnit’s console-runner](http://www.nunit.org/index.php?p=nunit-console&r=2.6.4) or run it via the NUnit GUI
+* To generate the result.xml file you can use [NUnit’s console-runner](http://www.nunit.org/index.php?p=nunit-console&r=2.6.4) or run it via the NUnit GUI
 
 * We also assumed that you are using [NUnit](http://www.nunit.org/) as your test framework. If not check change the [Test Results Format](http://docs.picklesdoc.com/en/latest/ArgumentsTestResultsFormat/) parameter.
 
