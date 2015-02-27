@@ -19,12 +19,12 @@ In the examples above we made some assumptions about your environment.
 * For this we expect that your solution directory looks something like this:
 	* solution.root
 		* Specs - class library for SpecFlow specifications
-		* *features* - with your .feature-files in
+		* features - the directory with your .feature-files in it
 		* bin
 			* Debug
-				* results.xml - [test result file](http://docs.picklesdoc.	com/en/latest/ArgumentsTestResultsFile/) for NUnit.
+				* results.xml - [test result file](http://docs.picklesdoc.com/en/latest/ArgumentsTestResultsFile/) for NUnit.
 
-* We expect that all your .feature files is found in the features-folder and it’s subfolders.
+* We expect that all your .feature files is found in the features-folder and subfolders.
 
 * To generated the result.xml file you can use [NUnit’s console-runner](http://www.nunit.org/index.php?p=nunit-console&r=2.6.4) or run it via the NUnit GUI
 
