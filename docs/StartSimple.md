@@ -1,4 +1,4 @@
-# Build documentation in 5 fast steps
+# A simple start
 So you have a folder of [SpecFlow](http://www.specflow.org) and just want to create some dazzling documentation in no time.
 
 There’s a lot of other ways and parameters - but this is the simplest.
@@ -17,8 +17,9 @@ You are done!
 There are loads of more configuration parameters and options that you can read about in the [documentation](http://docs.picklesdoc.com/en/latest/)
 
 ## Assumptions
-In the examples above we made some assumptions about your environment.
-* For this we expect that your solution directory looks something like this:
+In the examples above we made some assumptions about your environment:
+
+* Firstly, for this we expect that your solution directory looks something like this:
 	* solution.root
 		* Specs - class library for SpecFlow specifications
 		* features - the directory with your .feature-files in it
