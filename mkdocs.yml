@@ -1,6 +1,7 @@
 site_name: Pickles
 pages:
 - [index.md, Home]
+- [StartSimple.md, A simple start]
 - [GettingStarted.md, Getting Started]
 - [ConsoleApplication.md, Console Application]
 - [PowerShellcommandlet.md, PowerShell Commandlet]
