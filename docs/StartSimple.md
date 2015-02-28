@@ -22,10 +22,10 @@ In the examples above we made some assumptions about your environment:
 * Firstly, for this we expect that your solution directory looks something like this:
 	* solution.root
 		* Specs - class library for SpecFlow specifications
-		* features - the directory with your .feature-files in it
-		* bin
-			* Debug
-				* TestResult.xml - [test result file](http://docs.picklesdoc.com/en/latest/ArgumentsTestResultsFile/) for NUnit.
+			* features - the directory with your .feature-files in it
+			* bin
+				* Debug
+					* TestResult.xml - [test result file](http://docs.picklesdoc.com/en/latest/ArgumentsTestResultsFile/) for NUnit.
 
 * We expect that all your .feature files is found in the features-folder and subfolders.
 
