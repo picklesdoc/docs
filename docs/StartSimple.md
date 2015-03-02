@@ -1,7 +1,7 @@
-# Build documentation in 5 fast steps
-So you have a folder of [SpecFlow](http://www.specflow.org) and just want to create some dazzling documentation in no time.
+# A simple start
+So you have a folder of [SpecFlow](http://www.specflow.org) features and but your end-users and stakeholders doesn't really like the text-only format. You want to create some dazzling documentation in no time. No problem - [Pickles](http://www.picklesdoc.com/) is here to help - and it's free too. 
 
-There’s a lot of other ways and parameters - but this is the simplest.
+Pickles has a lot of other ways and parameters - below is the simplest way to get started.
 
 ## Four (or three really) simple steps to dazzling documentation
 1. Install the Pickles Console NuGet package: ``` Install-Package Pickles.CommandLine ``` in the [Package Manager Console](https://docs.nuget.org/consume/package-manager-console) for example
@@ -17,14 +17,15 @@ You are done!
 There are loads of more configuration parameters and options that you can read about in the [documentation](http://docs.picklesdoc.com/en/latest/)
 
 ## Assumptions
-In the examples above we made some assumptions about your environment.
-* For this we expect that your solution directory looks something like this:
+In the examples above we made some assumptions about your environment:
+
+* Firstly, for this we expect that your solution directory looks something like this:
 	* solution.root
 		* Specs - class library for SpecFlow specifications
-		* features - the directory with your .feature-files in it
-		* bin
-			* Debug
-				* TestResult.xml - [test result file](http://docs.picklesdoc.com/en/latest/ArgumentsTestResultsFile/) for NUnit.
+			* features - the directory with your .feature-files in it
+			* bin
+				* Debug
+					* TestResult.xml - [test result file](http://docs.picklesdoc.com/en/latest/ArgumentsTestResultsFile/) for NUnit.
 
 * We expect that all your .feature files is found in the features-folder and subfolders.
 
