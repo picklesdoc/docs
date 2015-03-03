@@ -46,7 +46,7 @@ This only produced a one-off generation. If you want to you can tweak the comman
 .\packages\Pickles.CommandLine.1.0.0\tools\pickles.exe^
 	--feature-directory=.\DemoPickles\features^
 	--output-directory=.\documentation^
-	--link-results-file=.\DemoPickles\bin\Debug\TestResult.xml
+	--link-results-file=.\DemoPickles\bin\Debug\TestResult.xml^
 	--documentation-format=dhtml
 ```
 
