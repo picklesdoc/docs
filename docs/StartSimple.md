@@ -4,13 +4,19 @@ So you have a folder of [SpecFlow](http://www.specflow.org) features and but you
 Pickles has a lot of other ways and parameters - below is the simplest way to get started.
 
 ## Four (or three really) simple steps to dazzling documentation
-1. Install the Pickles Console NuGet package: ``` Install-Package Pickles.CommandLine ``` in the [Package Manager Console](https://docs.nuget.org/consume/package-manager-console) for example
+* Install the Pickles Console NuGet package: ``` Install-Package Pickles.CommandLine ``` in the [Package Manager Console](https://docs.nuget.org/consume/package-manager-console) for example
 
-2. Open a [command prompt at your solution root](http://www.hanselman.com/blog/QuakeModeConsoleForVisualStudioOpenACommandPromptWithAHotkey.aspx)
+* Open a [command prompt at your solution root](http://www.hanselman.com/blog/QuakeModeConsoleForVisualStudioOpenACommandPromptWithAHotkey.aspx)
 
-3. Enter this command: ``` .\packages\Pickles.CommandLine.1.0.0\tools\pickles.exe --feature-directory=.\Specs\features --output-directory=.\documentation --link-results-file=.\Specs\bin\Debug\TestResult.xml ```
+* Enter this command: 
+``` 
+	.\packages\Pickles.CommandLine.1.0.0\tools\pickles.exe
+	--feature-directory=.\Specs\features^ 
+	--output-directory=.\documentation^ 
+	--link-results-file=.\Specs\bin\Debug\TestResult.xml 
+```
 
-4. Type ``` documentation/index.html ``` to view the generated documentation.
+* Type ``` documentation/index.html ``` to view the generated documentation.
 
 You are done!
 
