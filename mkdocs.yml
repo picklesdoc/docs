@@ -17,5 +17,5 @@ pages:
 - [ArgumentsTestResultsFile.md, Arguments Test Results File]
 - [ArgumentsTestResultsFormat.md, Arguments Test Results Format]
 - [HowToContribute.md, How To Contribute]
-theme: flatly
+theme: readthedocs
 repo_url: https://github.com/picklesdoc/docs
