@@ -16,6 +16,7 @@ pages:
 - [ArgumentsSystemUnderTestVersion.md, Arguments System Under Test Version]
 - [ArgumentsTestResultsFile.md, Arguments Test Results File]
 - [ArgumentsTestResultsFormat.md, Arguments Test Results Format]
+- [ArgumentsLanguage.md, Arguments Language]
 - [HowToContribute.md, How To Contribute]
 theme: readthedocs
 repo_url: https://github.com/picklesdoc/docs

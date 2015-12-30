@@ -9,3 +9,4 @@ Pickles provides several arguments for you to customize how it operates.  Each a
 * [System Under Test Version](ArgumentsSystemUnderTestVersion.md)
 * [Test Results Format](ArgumentsTestResultsFormat.md)
 * [Test Results File](ArgumentsTestResultsFile.md)
+* [Language](ArgumentsLanguage.md)
