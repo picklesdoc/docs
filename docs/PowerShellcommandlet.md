@@ -1,6 +1,6 @@
 # PowerShell commandlet
 
-Pickles comes with a Powershell commandlet that let's you run Pickles from within Visual Studio 2010 and the package manager console. The commandlet is called "Pickle-Features". 
+Pickles comes with a Powershell commandlet that let's you run Pickles from within Visual Studio 2010 and the package manager console. The commandlet is called "Pickle-Features".
 
 ## Getting the commandlet
 Installing the commandlet is easy via [Pickles on NuGet.Org](http://nuget.org/packages/Pickles) with the command:
@@ -12,7 +12,7 @@ Using the commandlet is equally easy by simply go:
 
 	Pickle-Feature
 
-If you then hit tab you get intellisense for the different parameters of the command. 
+If you then hit tab you get intellisense for the different parameters of the command.
 
 ## Parameters
 Listed below are the parameters that you can use with Pickle-Features (in version 0.3.0.0):
@@ -22,7 +22,7 @@ Listed below are the parameters that you can use with Pickle-Features (in versio
 * **SystemUnderTestName** (Optional) - the name of the system the features are testing. This will appear in the documentation
 * **SystemUnderTestVersion** (Optional) - the version of the system the features are testing. This will appear in the documentation
 * **Language** (Optional) - the [language](https://github.com/cucumber/cucumber/wiki/Spoken-languages) used in the feature-files.
-* **TestResultsFile** (Optional) - the result of a test run using the features. Used to show which test are failing etc. 
+* **TestResultsFile** (Optional) - the result of a test run using the features. Used to show which test are failing etc.
 
 ## Example - materialistic usage
 
