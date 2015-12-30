@@ -18,6 +18,7 @@ The default build target is configurable via the following MSBuild properties:
 | Pickles_ResultsFile            | [Results file](ArgumentsTestResultsFile.md)                                         | [See Pickles documentation](ArgumentsTestResultsFile.md)
 | Pickles_SystemUnderTestName    | [System under test name](ArgumentsSystemUnderTestName.md)                           | [See Pickles documentation](ArgumentsSystemUnderTestName.md) 
 | Pickles_SystemUnderTestVersion | [System under test version](ArgumentsSystemUnderTestVersion.md)                     | [See Pickles documentation](ArgumentsSystemUnderTestVersion.md)
+| Pickles_Language               | The [language](https://github.com/cucumber/cucumber/wiki/Spoken-languages) of the `.feature` files. | `en` for English
 
 #### Example 1 - Configuration via .csproj
 
