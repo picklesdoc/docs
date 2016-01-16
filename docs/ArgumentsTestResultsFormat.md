@@ -12,11 +12,11 @@ Output from MsTest.exe is published in a .trx file. VsTest.Console.exe, the new 
 
 ## Default Value
 
-nunit
+    nunit
 
 ## Possible Values
 
-nunit, xunit, mstest, specrun
+    nunit, nunit3, xunit, xunit2, mstest, cucumberjson, specrun
 
 ## Usage
 
