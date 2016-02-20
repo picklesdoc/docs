@@ -1,8 +1,8 @@
-#Integrating Test Results From SpecRun
+#Integrating Test Results From SpecFlow+ Runner
 
-It is now possible to integrate test results from [SpecRun](http://www.specrun.com/), a test runner specifically designed for running test cases from [SpecFlow](http://www.specflow.org). This involves some manual setup work, though: SpecRun outputs an HTML file that is not really suitable for automatic processing. Fortunately the template that produces the HTML file can be changed.
+It is now possible to integrate test results from [SpecFlow+ Runner](http://www.specflow.org/plus/runner/), a test runner specifically designed for running test cases from [SpecFlow](http://www.specflow.org). This involves some manual setup work, though: SpecFlow+ Runner outputs an HTML file that is not really suitable for automatic processing. Fortunately the template that produces the HTML file can be changed.
 
-* Download the "official" SpecRun template: [http://go.specflow.org/specrunreporttemplate](http://go.specflow.org/specrunreporttemplate)
+* Download the "official" SpecFlow+ Runner template: [http://go.specflow.org/specrunreporttemplate](http://go.specflow.org/specrunreporttemplate)
 * Copy the ReportTemplate.cshtml file to the directory of the Visual Studio project that contains your SpecFlow/SpecRun scenarios (next to your .srprofile file).
 * Include ReportTemplate.cshtml in your Visual Studio Project and set its "Copy to Output Directory" to "Copy if newer".
 * Adapt your .srprofile file by adding the reportTemplate attribute to the Settings element:
@@ -57,4 +57,4 @@ It is now possible to integrate test results from [SpecRun](http://www.specrun.c
     Pickles End -->
     ```
 
-Congratulations! You have now modified the default SpecRun report template so that it includes additional information that will tell Pickles the results of the scenarios.      
+Congratulations! You have now modified the default SpecFlow+ Runner report template so that it includes additional information that will tell Pickles the results of the scenarios.      
