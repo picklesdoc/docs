@@ -57,4 +57,26 @@ It is now possible to integrate test results from [SpecFlow+ Runner](http://www.
     Pickles End -->
     ```
 
-Congratulations! You have now modified the default SpecFlow+ Runner report template so that it includes additional information that will tell Pickles the results of the scenarios.      
+Congratulations! You have now modified the default SpecFlow+ Runner report template so that it includes additional information that will tell Pickles the results of the scenarios.
+
+## Take Care When Using Scenario Outlines
+
+You need to take special care when writing Scenario Outlines in order for Pickles to be able to match the results of the individual examples to the rows in the Examples table. There must be no repeated values in the first column of the examples table.
+
+This will work:
+
+    ```feature
+    Examples:
+      | result  | a column |
+      | value 1 | 60       |
+      | value 2 | 60       |
+    ```
+
+This will not work:
+
+    ```feature
+    Examples:
+      | a column | result  |
+      | 60       | value 1 |
+      | 60       | value 2 |
+    ```
