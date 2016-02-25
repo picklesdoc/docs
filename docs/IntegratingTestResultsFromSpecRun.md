@@ -14,7 +14,7 @@ Then, adapt your .srprofile file by adding the reportTemplate attribute to the S
         <Settings reportTemplate="ReportTemplate.cshtml" />
     </TestProfile>
 
-* Open ReportTemplate.cshtml and add this helper before the html element:
+Open ReportTemplate.cshtml and add this helper before the html element:
 
     @helper GetResultForPickles(TestNode testNode)
     {
