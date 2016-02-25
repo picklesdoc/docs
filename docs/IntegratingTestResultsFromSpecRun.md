@@ -31,7 +31,7 @@ Open ReportTemplate.cshtml and add this helper before the html element:
         {<text>Inconclusive</text>}
     }
 
-Still in ReportTemplate.cshtml, add this fragment before the closing /body element:
+Still in ReportTemplate.cshtml, add this fragment before the closing /body element (again omitting the line beginning with `//`).
 
     // copy this html fragment:
     <!-- Pickles Begin
