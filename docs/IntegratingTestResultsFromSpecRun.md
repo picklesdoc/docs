@@ -7,13 +7,11 @@ It is now possible to integrate test results from [SpecFlow+ Runner](http://www.
 * Include ReportTemplate.cshtml in your Visual Studio Project and set its "Copy to Output Directory" to "Copy if newer".
 * Adapt your .srprofile file by adding the reportTemplate attribute to the Settings element:
 
-     ```
      <?xml version="1.0" encoding="utf-16"?>
      <TestProfile xmlns="http://www.specrun.com/schemas/2011/09/TestProfile">
          <Settings reportTemplate="ReportTemplate.cshtml" />
      </TestProfile>
-     ```
-     
+
 * Open ReportTemplate.cshtml and add this helper before the html element:
 
     ```
