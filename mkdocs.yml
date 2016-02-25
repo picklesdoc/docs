@@ -7,7 +7,7 @@ pages:
 - [PowerShellcommandlet.md, PowerShell Commandlet]
 - [MSBuildTask.md, MSBuild Task]
 - [HowToGeneratePicklesDocOnTeamCity.md, How To Generate Pickles Doc On Team City]
-- [IntegratingTestResultsFromSpecRun.md, Integrating Test Results From SpecRun]
+- [IntegratingTestResultsFromSpecRun.md, Integrating Test Results From SpecFlow+ Runner]
 - [Arguments.md, Arguments]
 - [ArgumentsDocumentationFormat.md, Arguments Documentation Format]
 - [ArgumentsFeatureDirectory.md, Arguments Feature Directory]
