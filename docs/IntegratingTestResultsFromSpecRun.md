@@ -7,27 +7,12 @@ It is now possible to integrate test results from [SpecFlow+ Runner](http://www.
 * Include ReportTemplate.cshtml in your Visual Studio Project and set its "Copy to Output Directory" to "Copy if newer".
 * Adapt your .srprofile file by adding the reportTemplate attribute to the Settings element:
 
-<script src="https://gist.github.com/dirkrombauts/bb6d9cb64aa4949c4dcc.js"></script>     
+<script src="https://gist.github.com/dirkrombauts/bb6d9cb64aa4949c4dcc.js?srprofile.xml"></script>     
 
 * Open ReportTemplate.cshtml and add this helper before the html element:
 
-    ```
-    @helper GetResultForPickles(TestNode testNode)
-    {
-        var summary = GetSummary(testNode);
-        if (summary.Succeeded > 0)
-        {<text>Passed</text>}
-        else if (summary.TotalFailure > 0)
-        {<text>Failed</text>}
-        else if (summary.Ignored > 0)
-        {<text>Ignored</text>}
-        else if (summary.Pending > 0)
-        {<text>Pending</text>}
-        else
-        {<text>Inconclusive</text>}
-    }
-    ```
-    
+<script src="https://gist.github.com/dirkrombauts/bb6d9cb64aa4949c4dcc.js?GetResultForPickles.js"></script>     
+
 * Still in ReportTemplate.cshtml, add this fragment before the closing /body element:
 
     ```
