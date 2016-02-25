@@ -16,7 +16,7 @@ Output from MsTest.exe is published in a .trx file. VsTest.Console.exe, the new 
 
 ## Possible Values
 
-    nunit, nunit3, xunit, xunit2, mstest, cucumberjson, specrun
+    nunit, nunit3, xunit, xunit2, mstest, cucumberjson, specrun, vstest
 
 ## Usage
 
