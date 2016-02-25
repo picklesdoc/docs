@@ -13,7 +13,7 @@ It is now possible to integrate test results from [SpecFlow+ Runner](http://www.
 
 <script src="https://gist.github.com/dirkrombauts/bb6d9cb64aa4949c4dcc.js?GetResultForPickles.js"></script>     
 
-* Still in ReportTemplate.cshtml, add this fragment before the closing /body element:
+Still in ReportTemplate.cshtml, add this fragment before the closing /body element:
 
     ```
     <!-- Pickles Begin
