@@ -6,7 +6,7 @@ It is now possible to integrate test results from [SpecFlow+ Runner](http://www.
 * Copy the ReportTemplate.cshtml file to the directory of the Visual Studio project that contains your SpecFlow/SpecRun scenarios (next to your .srprofile file).
 * Include ReportTemplate.cshtml in your Visual Studio Project and set its "Copy to Output Directory" to "Copy if newer".
 
-Then, adapt your .srprofile file by adding the reportTemplate attribute to the Settings element:
+Then, adapt your .srprofile file by adding the reportTemplate attribute to the Settings element. For technical reasons, the xml fragment on this page starts with a line beginning with `//`. You should not include that line in the xml file.
 
     // copy the following xml fragment:
     <?xml version="1.0" encoding="utf-16"?>
@@ -33,7 +33,7 @@ Open ReportTemplate.cshtml and add this helper before the html element:
 
 Still in ReportTemplate.cshtml, add this fragment before the closing /body element:
 
-    ```
+    // copy this html fragment:
     <!-- Pickles Begin
     &lt;features&gt;
     @foreach (var fixtureNode in GetTextFixtures())
@@ -53,8 +53,7 @@ Still in ReportTemplate.cshtml, add this fragment before the closing /body eleme
     }
     &lt;/features&gt;
     Pickles End -->
-    ```
-    
+
 Congratulations! You have now modified the default SpecFlow+ Runner report template so that it includes additional information that will tell Pickles the results of the scenarios.
 
 ## Take Care When Using Scenario Outlines
