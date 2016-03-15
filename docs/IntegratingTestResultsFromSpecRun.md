@@ -48,18 +48,18 @@ Congratulations! You have now modified the default SpecFlow+ Runner report templ
 
 ## Take Care When Using Scenario Outlines
 
-You need to take special care when writing Scenario Outlines in order for Pickles to be able to match the results of the individual examples to the rows in the Examples table. There must be no repeated values in the first column of the examples table.
+You need to take special care when writing Scenario Outlines in order for Pickles to be able to match the results of the individual examples to the rows in the Examples table. There must be no repeated values in the first column of the examples table. Consider using a `description` column that gives a brief description of the purpose of the example.
 
 This will work:
 
     Examples:
-      | result  | a column |
-      | value 1 | 60       |
-      | value 2 | 60       |
+      | description | value 1 | value 2 | result |
+      | addition    | 60      | 20      | 80     |
+      | subtraction | 60      | -20     | 40     |
 
 This will not work:
 
     Examples:
-      | a column | result  |
-      | 60       | value 1 |
-      | 60       | value 2 |
+      | value 1 | value 2 | result |
+      | 60      | 20      | 80     |
+      | 60      | -20     | 40     |
