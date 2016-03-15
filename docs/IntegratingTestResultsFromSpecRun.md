@@ -2,19 +2,9 @@
 
 It is now possible to integrate test results from [SpecFlow+ Runner](http://www.specflow.org/plus/runner/), a test runner specifically designed for running test cases from [SpecFlow](http://www.specflow.org). This involves some manual setup work, though: SpecFlow+ Runner outputs an HTML file that is not really suitable for automatic processing. Fortunately the template that produces the HTML file can be changed.
 
-* Download the "official" SpecFlow+ Runner template: [http://go.specflow.org/specrunreporttemplate](http://go.specflow.org/specrunreporttemplate)
-* Copy the ReportTemplate.cshtml file to the directory of the Visual Studio project that contains your SpecFlow/SpecRun scenarios (next to your .srprofile file).
-* Include ReportTemplate.cshtml in your Visual Studio Project and set its "Copy to Output Directory" to "Copy if newer".
+Create a custom report file as described on the [Reports page](http://www.specflow.org/plus/documentation/Reports/) of the SpecFlow+ documentation.
 
-Then, adapt your .srprofile file by adding the reportTemplate attribute to the Settings element. For technical reasons, the xml fragment on this page starts with a line beginning with `//`. You should not include that line in the xml file.
-
-    // copy the following xml fragment:
-    <?xml version="1.0" encoding="utf-16"?>
-    <TestProfile xmlns="http://www.specrun.com/schemas/2011/09/TestProfile">
-        <Settings reportTemplate="ReportTemplate.cshtml" />
-    </TestProfile>
-
-Open ReportTemplate.cshtml and add this helper before the html element:
+Open your copy of `ReportTemplate.cshtml` and add this helper before the html element:
 
     @helper GetResultForPickles(TestNode testNode)
     {
@@ -31,7 +21,7 @@ Open ReportTemplate.cshtml and add this helper before the html element:
         {<text>Inconclusive</text>}
     }
 
-Still in ReportTemplate.cshtml, add this fragment before the closing /body element (again omitting the line beginning with `//`).
+Still in your copy of `ReportTemplate.cshtml`, add this fragment before the closing /body element. For technical reasons, the xml fragment on this page starts with a line beginning with `//`. You should not include that line in the xml file.
 
     // copy this html fragment:
     <!-- Pickles Begin
