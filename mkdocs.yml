@@ -18,7 +18,7 @@ pages:
 - [ArgumentsTestResultsFile.md, Arguments Test Results File]
 - [ArgumentsTestResultsFormat.md, Arguments Test Results Format]
 - [ArgumentsLanguage.md, Arguments Language]
-- [Include Experimental Features, ArgumentsIncludeExperimentalFeatures.md]
+- [ArgumentsIncludeExperimentalFeatures.md, Include Experimental Features]
 - [HowToContribute.md, How To Contribute]
 theme: readthedocs
 repo_url: https://github.com/picklesdoc/docs
