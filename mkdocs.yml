@@ -6,6 +6,7 @@ pages:
 - [ConsoleApplication.md, Console Application]
 - [PowerShellcommandlet.md, PowerShell Commandlet]
 - [MSBuildTask.md, MSBuild Task]
+- [ExperimentalFeatures.md, Experimental Features]
 - [HowToGeneratePicklesDocOnTeamCity.md, How To Generate Pickles Doc On Team City]
 - [IntegratingTestResultsFromSpecRun.md, Integrating Test Results From SpecFlow+ Runner]
 - [Arguments.md, Arguments]
@@ -17,6 +18,7 @@ pages:
 - [ArgumentsTestResultsFile.md, Arguments Test Results File]
 - [ArgumentsTestResultsFormat.md, Arguments Test Results Format]
 - [ArgumentsLanguage.md, Arguments Language]
+- [Include Experimental Features, ArgumentsIncludeExperimentalFeatures.md]
 - [HowToContribute.md, How To Contribute]
 theme: readthedocs
 repo_url: https://github.com/picklesdoc/docs
