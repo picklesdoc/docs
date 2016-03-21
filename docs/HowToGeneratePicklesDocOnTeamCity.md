@@ -2,7 +2,7 @@
 
 Some of the reasons for creating a living documentation system is creating a shared understanding between developers and business people and giving constant feedback. Most business people don't understand code, but with Pickles you can easily provide a more useful test report for them. Such as this one:
 
-![](/Images/TeamCityHowTo/scenarios_teamcity.PNG)
+![](img/TeamCityHowTo/scenarios_teamcity.PNG)
 
 **Note**: Here we use NUnit test execution reports, however Pickles supports also MSTest, XUnit and SpecRun. To use another test runners adjust parameters accordingly.
 
@@ -10,7 +10,7 @@ First you need to either add required files to your test project or install requ
 The required tools are: Pickles, Specflow and NUnit (or other test runner).
 The following picture presents the list of files that have to be included in the project:
 
-![](/Images/TeamCityHowTo/required_files.png)
+![](img/TeamCityHowTo/required_files.png)
 
 Specflow is complied for .NET 3.5, so if your project uses .NET 4.0, remember to create Specflow.exe.config file with the following content:
 
@@ -25,7 +25,7 @@ Specflow is complied for .NET 3.5, so if your project uses .NET 4.0, remember to
 Open the configuration of your build project. Add a new build step.
 In Runner Type dropdown pick "Command Line", in Run dropdown pick "Custom script".
 
-![](/Images/TeamCityHowTo/test_reports.PNG)
+![](img/TeamCityHowTo/test_reports.PNG)
 
 Specify a script to run:
 
@@ -48,7 +48,7 @@ Configure a new report tab:
 * Click "Create new report tab" button.
 * Specify the name of the new tab and location of the start page in your rep.
 
-![](/Images/TeamCityHowTo/report_config.PNG)
+![](img/TeamCityHowTo/report_config.PNG)
 
 **Note**: The path of the start page is relative to the Teamcity artifacts directory.
 
