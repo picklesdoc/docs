@@ -20,6 +20,7 @@ pages:
     - Test Results Format: 'ArgumentsTestResultsFormat.md'
     - Language: 'ArgumentsLanguage.md'
     - Include Experimental Features: 'ArgumentsIncludeExperimentalFeatures.md'
+    - Enable Comments: 'ArgumentsEnableComments.md'
 - How To Contribute: 'HowToContribute.md'
 theme: readthedocs
 repo_url: https://github.com/picklesdoc/docs
