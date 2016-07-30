@@ -16,9 +16,8 @@ Pickles has a lot of other ways and parameters - below is the simplest way to ge
 	--link-results-file=.\Specs\bin\Debug\TestResult.xml 
 ```
 
-* Type ``` documentation/index.html ``` to view the generated documentation.
-
-You are done!
+* Open ``` documentation/index.html ``` to view the generated documentation.
+* You are done!
 
 There are loads of more configuration parameters and options that you can read about in the [documentation](http://docs.picklesdoc.com/en/latest/)
 
