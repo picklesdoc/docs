@@ -11,4 +11,4 @@ Pickles provides several arguments for you to customize how it operates.  Each a
 * [Test Results File](ArgumentsTestResultsFile.md)
 * [Language](ArgumentsLanguage.md)
 * [Include Experimental Features](ArgumentsIncludeExperimentalFeatures.md)
-* [Exclude a Feature or an Scenario](ArgumentsExcludeFeatureOrScenario.md)
+* [Exclude a Feature or a Scenario](ArgumentsExcludeFeatureOrScenario.md)
