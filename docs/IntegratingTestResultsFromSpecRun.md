@@ -46,6 +46,8 @@ Still in your copy of `ReportTemplate.cshtml`, add this fragment before the clos
 
 Congratulations! You have now modified the default SpecFlow+ Runner report template so that it includes additional information that will tell Pickles the results of the scenarios.
 
+But you are not done! You have one last step, which is to tell Pickles where your SpecFlow+ Runner report is. You need to set the [parameter](ArgumentsTestResultsFile.md) `--link-results-file` to the location of the Runner report. Finally include the [parameter](ArgumentsTestResultsFormat.md) `--test-results-format=specrun`.
+
 ## Take Care When Using Scenario Outlines
 
 You need to take special care when writing Scenario Outlines in order for Pickles to be able to match the results of the individual examples to the rows in the Examples table. There must be no repeated values in the first column of the examples table. Consider using a `description` column that gives a brief description of the purpose of the example.
