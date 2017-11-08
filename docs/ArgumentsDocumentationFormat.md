@@ -13,7 +13,7 @@ Allows the user to select what format the generated output will be written in.  
 
 **Note**: The value passed to this argument is case-insensitive.  i.e. HTML = html= HtMl
 
-**Note**: The Cucumber JSON is used by report generators such as [cucumber-html-reporter | https://www.npmjs.com/package/cucumber-html-reporter] and others to generate test run reports
+**Note**: The Cucumber JSON is used by report generators such as [cucumber-html-reporter](https://www.npmjs.com/package/cucumber-html-reporter) and others to generate test run reports
 
 ## Default Value
 
