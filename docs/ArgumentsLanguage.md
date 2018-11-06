@@ -5,7 +5,7 @@
 
 Allows the user to tell Pickles the default language of the `.feature` files. Any language settings inside the `.feature` files take precedence.
 
-For more on the concept of languages in `.feature` files, see the [entry on GitHub](https://github.com/cucumber/cucumber/wiki/Spoken-languages).
+For more on the concept of languages in `.feature` files, see the [entry on GitHub](https://docs.cucumber.io/gherkin/reference/#spoken-languages).
 
 ## Default Value
 
@@ -13,7 +13,7 @@ For more on the concept of languages in `.feature` files, see the [entry on GitH
 
 ## Possible Values
 
-Any of the values defined in the [Gherkin Languages file](https://github.com/cucumber/gherkin3/blob/master/gherkin-languages.json).
+Any of the values defined in the [Gherkin Languages file](https://github.com/cucumber/cucumber/blob/master/gherkin/gherkin-languages.json).
 
 ## Usage
 
