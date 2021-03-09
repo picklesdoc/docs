@@ -10,6 +10,7 @@ Allows the user to select what format the generated output will be written in.  
 - JSON
 - Excel
 - Cucumber JSON
+- Markdown
 
 **Note**: The value passed to this argument is case-insensitive.  i.e. HTML = html= HtMl
 
@@ -21,7 +22,7 @@ html
 
 ## Possible Values
 
-html, dhtml, excel, json, word, cucumber
+html, dhtml, excel, json, word, cucumber, markdown
 
 ## Usage
 
